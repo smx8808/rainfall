@@ -1,2 +1,0 @@
-# cyberlearningpath.org
-CyberLearningPath.org
