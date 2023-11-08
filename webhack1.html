@@ -1,0 +1,202 @@
+CLP Web application hacking requires focus, perseverance, attention to detail, observation and interfacing. There are many types of web application hacking, and many defense mechanisms available to counter and to protect the application from being hacked.
+Core defense mechanisms
+
+There are four categories in which we can protect the web application:
+
+    User access handling to the application data and functionality
+    User input handling 
+    Suitable defensive and offensive measures to frustrate the hacker
+    Application configuration to get the alert in case of unauthorized access
+
+User Access
+
+A web application provides different roles for user access depending on the business requirement and use cases.  A classic example is a digital banking scenario, where the customer wants to access the banking functions to get the balance from his account or transfer the cash to someone else. Another example is a scenario where a Linux administrator wants to provide privileges and rights to authorized users.
+
+The web application uses the below security mechanisms:
+
+    Authentication
+    Session management
+    Access control
+
+Authentication is identifying a user to whom the credentials belong. This can be done using is a user name and password.  Additional authentication can be done through the user’s mobile number or biometrics.
+
+Session management is the process of the user being signed in throughout, while using the web application.  Every time the user logs in to use the application, it is recorded as a session. Sessions can vary depending on the use case and application.
+
+Access control is a process of protecting the HTTP requests in Web application. This is the last layer of defense in the user access.
+User Input
+
+All the user inputs in the web application are always untrusted. A web application should have defense mechanisms in place to prevent the user from writing malicious code or breaking the website.  We can handle the user input validation at various levels based on the need of the business.
+
+Input handling to reject all words related to hacking- this is a process of blacklisting them which the web server will check and confirm. These are called Semantic Checks.
+
+Also creating a set of rules to accept the user inputs – for example, only numbers that are safe for Bank account access can be used. This is called Safe Data Handling.
+
+We need to have multi-step validation where every component is checked for user inputs in the web application.
+
+We can have boundary validation to check all the external interfaces with the applications.
+Handling Hackers
+
+To get more sensitive alerts in the web application we need to have following
+
+    Audit logs records
+    IP address blocking
+    Intrusion Detection systems
+    Firewalls
+
+We need to have application configuration with the key alert that has to be notified immediately when any hacker gets into the web application.
+Web application technologies
+
+The top web technologies that developers are using for web development are as below:
+
+    HTML
+    CSS
+    Programming Languages
+        JavaScript
+        Coffee Script
+        Python
+        Ruby
+        PHP
+        GO
+        Objective C
+        SWIFT
+        Java
+    Frameworks
+        Node.JS
+        Ruby on Rails
+        Django
+        Ionic
+        Phonegap
+        Bootstrap
+        Foundation
+        Wordpress
+        Drupal .
+        NET
+        Angular JS
+        Ember JS
+        Backbone JS
+    Libraries
+        J Query
+        Underscore
+    Database
+        MongoDB
+        Redis
+        Postgres SQL
+        MySQL
+        Oracle
+        SQL Server
+    Data Formats
+        JSON
+        XML
+        CSV
+    Protocols
+        HTTP
+        DDP
+        REST
+
+Digital Technologies for Web Applications
+
+    Web Assembly – similar to JavaScript
+    Movement UI Design
+    Chabot’s
+    Artificial Intelligence
+    Dynamic Web Applications – PWA
+    Blockchain
+    Single Page Applications
+    Web Server Software
+    Computerized Transformation
+    AMP Wins
+    VR and AR
+    Symfony
+    Laravel
+
+Bypassing client-side controls
+
+The process of sending data from server to client is very common in web applications.  The reverse is also true when client sends the data to the server. It is normal for software developers to assume that the client will not modify the data.  Avoiding the storage of data within the user session can help in security and also increase performance. Modifying the data stored in the client side is easy in comparison to the server side by the hacker.
+
+Two ways exist for bypassing: 
+
+    Application relies on client-side data to restrict the user input. So, restricting the client side controls the security.
+    Application gathers data that is entered by user, the client implements methods to control the previous data.
+
+For both the options, the following are the techniques to by-pass client side controls:
+
+    HTML form features
+    Client Side Scripts
+    Thick Client technologies
+
+Authentication and Authorization
+
+Web applications have both authentication and authorization as key concepts supporting the web applications.
+
+Authentication refers to any verification process that checks whether a human or automated system is who or what it claims to be. Authentication is the process of verifying the identity of the individual. A unique identifier is added for the web application like Password, Login or username.  We can use OpenID, OAUTH, and SAML. The entire Authentication depends on the HTTP/HTTPS implementation.
+
+Authorization is a process in which we have controls to allow or restrict resources. It is entirely dependent on business use cases and it varies end to end.  For strengthening the authorization we should implement logging for all privileged actions. Invalid sessions should be made to log out. 
+
+So we need to have strict controls on both the concepts to prevent hacking of web applications.
+XSS – Cross site scripting
+
+This is a type of injection in which malicious scripts are injected to trusted websites.  A hacker uses a web application to send malicious code. This is in the form of browser-side script. The end user has no way to know that a hacker has entered into the web application and he continues to execute the script. Script can access cookies, session tokens and all other sensitive information and even have the capability to rewrite the entire HTML page content.
+
+Types of XSS
+
+    Stored XSS
+    Reflected XSS
+    DOM based XSS
+
+All these can occur in Client XSS or Server XSS.
+Bypassing blacklists and whitelists
+
+Blacklist refers to the practice of not allowing certain addresses and blocking them based on the need and requirement. They can be IP address, Networks and URLs.
+
+Whitelist indicates that a server would only allow through requests that contain a URL on an accepted list, and other requests will fail.
+
+Whitelist are harder to bypass as they are default controls in the web application.  The concept is that it redirects to the internal URL. We can bypass a blacklist by
+
+    Fooling it with redirects
+    Tricking with DNS
+    IPV6 address usage
+    Switching out the encoding
+    Hex Encoding
+    Octal Encoding
+    Dword Encoding
+    URL Encoding
+    Mixed Encoding
+
+CSRF – Cross site request forgery
+
+CSRF is an attack that forces an end user to execute unwanted actions on a web application which is already authenticated. The hacker can send a link via an email and chat, and may trick the users of a web application into executing actions. In case the attack is on an administrator account the entire web application can be compromised. 
+Unvalidated redirects 
+
+These are possible when a web application accepts untrusted input. This can cause the web application to redirect the request to a URL containing untrusted inputs. Through the modification of the Untrusted URL input to a malicious site, the hacker launches a phishing attack and steals the user credentials.
+
+These redirects using credentials can also give the hacker the privilege functions which normally they cannot access.
+
+We need to have the user provide a short name, ID or token which is mapped server-side to a full target URL and this gives protection to the entire process.
+SQL injection
+
+SQL injection is a process of injecting the malicious SQL query via the input data from the client to the web application.
+
+    SQL injection can modify, read, and delete the sensitive information from the Databases.
+    Has the ability to issue commands to the operating system
+    Administration controls on the operations of the database
+    Done through simple SQL commands
+
+File upload vulnerabilities
+
+    Web applications have these functionalities and features of uploading files.
+    These files can be text, pictures, audio, video and other formats.
+    We need to be careful while uploading files.
+    A hacker can send a remote form Data POST request with mime type and execute the code.
+    With this, the files upload will be controlled by the hacker.
+
+Attacking the application server
+
+The various formats of the attacks on the application server are listed below:
+
+    Cross-Site Scripting (XSS)
+    SQL Injection (SQLi)
+    File upload  
+    Local File Inclusion (LFI)
+    Distributed Denial of Service (DDoS)
+
+Cyber Learning Path
