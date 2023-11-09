@@ -222,7 +222,7 @@ ol {
     width: 800px;
 }
 	.u-header .u-menu-1 {
-    margin: -70px 0 26px auto;
+    margin: -70px 0 26px auto !important;
 }
 }
 
