@@ -212,6 +212,22 @@ ol {
 /* Wobble bottom effect */
 /* Zoom and Rotate Effects */
 /* Utility */
+
+
+/*custom*/
+@media (min-width:1025px) {
+	img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 800px;
+}
+}
+
+section.u-text {
+    margin: 28px auto 10px !important;
+}
+
+/*custom*/
 .u-over-slide {
   position: absolute;
   left: 0;
