@@ -221,6 +221,9 @@ ol {
     padding-bottom: 10px;
     width: 800px;
 }
+	.u-header .u-menu-1 {
+    margin: -70px 0 26px auto;
+}
 }
 
 .u-section-1 .u-text-2 {
